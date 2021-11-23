@@ -1,0 +1,1 @@
+# mintee-base-project
