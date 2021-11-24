@@ -1,0 +1,30 @@
+.bootslander-navbar-parent{
+    background: rgba(2, 5, 161, 0.91);
+    position: relative;
+    color: #ffffff;
+    // &::before{
+    //     content: "";
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     background: rgba(2, 5, 161, 0.91);
+    //     z-index: 11;
+    // }
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    .nav-item{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        &:not(:last-child){
+            padding-right: 10px;
+        }
+        .nav-link{
+            color: #ffffff;
+        }
+    }
+}

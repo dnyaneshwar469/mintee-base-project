@@ -10,6 +10,9 @@ import { TeamPageComponent } from './team-page/team-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 
 import{ ShareModule } from './share/share.module';
+import { FeaturesComponent } from './features/features.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -19,11 +22,14 @@ import{ ShareModule } from './share/share.module';
     ProjectPageComponent,
     TeamPageComponent,
     ContactPageComponent,
+    FeaturesComponent,
+    GalleryComponent,
+    PricingComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ShareModule
+    ShareModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
