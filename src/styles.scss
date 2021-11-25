@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/css/font-family.scss';
+@import './assets/css/common.scss';
 body {
     font-family: "Open Sans", sans-serif;
+}
+.container{
+    @media (min-width: 1400px){
+        min-width: 1320px;
+    }
 }

@@ -1,0 +1,44 @@
+.bootslander-about-section{
+    padding: 120px 0px;
+}
+.about-parent-row{
+    margin-top: 40px;
+    &:hover{
+        .bx-icon-container{
+           background-color: #1acc8d;
+           border: 2px solid #1acc8d;
+            .bx{
+                color: #ffffff;
+            }
+        } 
+    }
+    .bx-icon-container{
+        width: 65px;
+        border: 2px solid #7ceec6;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65px;
+        .bx{
+            font-size: 35px;
+            color: #1acc8d;
+        }
+    }
+    .bx-icon-heading{
+        font-family: "Montserrat-SemiBold";
+        font-size: 20px;
+        a[href=""]{
+            color: #000000;
+            &:hover{
+                color: #1acc8d;
+                text-decoration: none;
+            }
+        }
+    }
+    .about-description{
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "Montserrat-Regular";
+    }
+}
