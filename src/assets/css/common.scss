@@ -1,0 +1,27 @@
+.bootslander-small-heading{
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    &::after{
+        content: "";
+        width: 120px;
+        height: 1px;
+        background: #1acc8d;
+        display: inline-block;
+        margin: 4px 10px;
+    }
+}
+.primary-heading{
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins-Bold";
+    color: #010483;
+}
