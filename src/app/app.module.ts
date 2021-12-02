@@ -13,6 +13,8 @@ import{ ShareModule } from './share/share.module';
 import { FeaturesComponent } from './features/features.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { MiddlePageComponent } from './middle-page/middle-page.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { PricingComponent } from './pricing/pricing.component';
     FeaturesComponent,
     GalleryComponent,
     PricingComponent,
+    MiddlePageComponent,
+    TestimonialsComponent,
   ],
   imports: [
     BrowserModule,

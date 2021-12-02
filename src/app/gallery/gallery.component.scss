@@ -1,0 +1,12 @@
+.bootslander-gallery-section{
+    padding: 60px 0px;
+
+    .gallery-image-card{
+        border-bottom: 3px solid #ffffff;
+        overflow: hidden;
+        img:hover{
+            transform: scale(1.15);
+            transition: all ease-in-out 0.4s;
+        }
+    }
+}

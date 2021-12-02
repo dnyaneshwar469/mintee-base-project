@@ -1,0 +1,78 @@
+.bootslander-team-section{
+    padding: 60px 0 180px;
+    .card{
+        border: none;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+        &:hover{
+            img{
+                transform: scale(1.1);
+                transition: all ease-in-out 0.4s;
+            }
+        }
+        .team-member-image{
+            position: relative;
+            &::before{
+                content: "";
+                height: 45px;
+                background-color: #ffffff;
+                width: 100%;
+                opacity: 0.88;
+                position: absolute;
+                bottom: 0;
+                z-index: 20;
+            }
+            .member-name-container{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 21;
+                .team-member-name{
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    color: #01036f;
+                    position: relative;
+                    padding-bottom: 10px;
+                    font-family: "Montserrat-SemiBold";
+                    text-align: center;
+                    margin: auto;
+                }
+            }
+        }
+        .card-body{
+            background: rgb(255, 255, 255,);
+            border-radius: 0 0 4px 4px;
+            z-index: 10;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            .team-member-designation{
+                font-style: italic;
+                display: block;
+                font-size: 13px;
+                color: #01036f;
+                font-family: "OpenSans-Regular";
+                text-align: center;
+                margin-bottom: 0.5rem;
+            }
+            .social-ul{
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                padding-left: 0;
+                margin-bottom: 0;
+                .social-li{
+                    padding: 0 5px;
+                    .social-link{
+                        color: #01036f;
+                        &:hover{
+                            color: #1acc8d;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
