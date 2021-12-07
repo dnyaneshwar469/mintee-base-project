@@ -15,6 +15,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { MiddlePageComponent } from './middle-page/middle-page.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { FaqPageComponent } from './faq-page/faq-page.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     PricingComponent,
     MiddlePageComponent,
     TestimonialsComponent,
+    FaqPageComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,61 @@
+.bootslander-contact-us-section{
+    padding: 50px 0px;
+    .address-left-section{
+        margin-top: 20px;
+        .contact-icon-parent{
+            height: 3.25em;
+            width: 3.25em;
+            background: #f0f0ff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #3f43fd;
+        }
+        .contact-address-parent{
+            .address-heading{
+                font-size: 22px;
+                font-weight: 600;
+                margin-bottom: 5px;
+                color: #010483;
+                font-family: "Montserrat-SemiBold";
+            }
+            .address-text{
+                font-size: 14px;
+                color: #0205a1;
+            }
+        }
+        &:hover{
+            .contact-icon-parent{
+                background-color: #1acc8d;
+                color: #fff;
+                transition: all ease 0.4s;
+            }
+        }
+    }
+    .form-right-section{
+        .form-group{
+            margin-bottom: 20px;
+            .form-control{
+                border-radius: 0;
+                font-size: 14px;
+                &:focus{
+                    box-shadow: none;
+                    border-color: #86b7fe;
+                }
+            }
+            .form-control:not(textarea){
+                height: 44px;
+            }
+        }
+        .btn-send-msg{
+            border-radius: 50px;
+            background: #1acc8d;
+            border: 0;
+            padding: 10px 30px;
+            color: #fff;
+            transition: 0.4s;
+            margin: auto;
+        }
+    }
+}
